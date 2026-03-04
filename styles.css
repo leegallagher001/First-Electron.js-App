@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  -webkit-app-region: drag;
+  background-image: url("assets/lee-calendar-bg-nostroke.png");
+  border: 1px solid white;
+  border-radius: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 13.375rem;
+    padding: 1rem 1.0625rem;
+}
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
+
+.title {
+    display: flex;
+    width: 157px;
+    padding: 0.25rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+    border-radius: 6.25rem;
+    border: 1px solid #C079FF;
+    background: rgba(210, 164, 255, 0.40);
+
+    color: var(--white, #FFF);
+
+    font-family: "Jura", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#calendar {
+    display: flex;
+    width: 156px;
+    border-radius: 25px;
+    border: 1px solid white;
+    height: 10.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-image: url("assets/lee-calendar-fg-nostroke.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#day {
+    color: #FFF;
+    text-align: center;
+    font-family: "Jura", sans-serif;
+    font-size: 5rem;
+    font-style: 700;
+    font-weight: normal;
+    line-height: 1.25rem;
+    letter-spacing: 0.45rem;
+    margin-top: 15px;
+}
+
+#month {
+    color: #FFF;
+    text-align: center;
+    font-family: "Jura", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: 0.3rem;
+    margin-top: 20px;
+
+    width: 8.125rem;
+}
