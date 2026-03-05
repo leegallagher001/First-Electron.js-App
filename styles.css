@@ -40,7 +40,7 @@ select {
     width: 216px;
     position: absolute;
     top: 0;
-    padding: 0.25rem 0.625rem;
+    padding: 0px 0px 0px 0.625rem;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
@@ -59,12 +59,23 @@ select {
     line-height: normal;
 }
 
+#app-close {
+    width: 30%;
+    text-align: center;
+    border-top-right-radius: 25px;
+    border: 1px solid lightskyblue;
+    padding: 5px 0px 5px 0px;
+    margin-left: 0.625rem;
+    background-color: navy;
+    color: white;
+}
+
 #calendar {
     display: flex;
     width: 156px;
     border-radius: 25px;
     border: 1px solid white;
-    margin-top: 25px;
+    margin-top: 30px;
     height: 10.0625rem;
     flex-direction: column;
     justify-content: center;
@@ -101,4 +112,3 @@ select {
 
     width: 8.125rem;
 }
-
