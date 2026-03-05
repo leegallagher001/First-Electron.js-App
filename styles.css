@@ -37,13 +37,16 @@ select {
 
 .title {
     display: flex;
-    width: 157px;
+    width: 216px;
+    position: absolute;
+    top: 0;
     padding: 0.25rem 0.625rem;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
 
-    border-radius: 6.25rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     border: 1px solid #C079FF;
     background: rgba(210, 164, 255, 0.40);
 
@@ -61,6 +64,7 @@ select {
     width: 156px;
     border-radius: 25px;
     border: 1px solid white;
+    margin-top: 25px;
     height: 10.0625rem;
     flex-direction: column;
     justify-content: center;
@@ -97,3 +101,4 @@ select {
 
     width: 8.125rem;
 }
+
